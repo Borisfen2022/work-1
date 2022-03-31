@@ -17,9 +17,8 @@ header {
   position: relative;
 }
 
-.btm-back {
+.btn-back {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: 4px 8px;
@@ -36,7 +35,6 @@ header {
 }
 
 .img {
-  position: static;
   width: 16px;
   height: 24px;
   margin-right: 6px;
@@ -45,11 +43,11 @@ header {
 .title {
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 100%;
   margin-top: 28px;
   font-size: 48px;
   line-height: 72px;
-  justify-content: center;
   margin-bottom: 32px;
   color: #203a62;
 }
@@ -80,7 +78,7 @@ header {
   margin-right: 12px;
 }
 
-.Annually {
+.annually {
   font-size: 16px;
   line-height: 24px;
   color: #6f809a;
@@ -105,7 +103,7 @@ header {
   box-sizing: border-box;
 }
 
-.block1 {
+.plan {
   width: 320px;
   height: 593px;
   background: #ffffff;
@@ -122,13 +120,13 @@ header {
 
 .block-header {
   display: flex;
-  font-display: row;
 }
 
 .header-text {
+  display: flex;
   flex-direction: column;
 }
-.pro {
+.plan-name {
   font-family: "Poppins";
   font-weight: 600;
   font-size: 32px;
