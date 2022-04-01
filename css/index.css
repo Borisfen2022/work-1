@@ -50,7 +50,7 @@ header {
   font-size: 48px;
   line-height: 72px;
   margin-bottom: 32px;
-  color: #0C2447;
+  color: #0c2447;
 }
 
 .subtitle {
@@ -281,29 +281,22 @@ li {
   margin-right: 16px;
 }
 
-.avatar1 {
+.avatar {
   background-color: #e4e8ec;
-  background-image: url(../img/Group43.svg);
   width: 76px;
   height: 76px;
   border-radius: 5px;
   margin-right: 16px;
+}
+
+.avatar1 {
+  background-image: url(../img/Group43.svg);
 }
 
 .avatar2 {
-  background-color: #e4e8ec;
   background-image: url(../img/Group\ 44.svg);
-  width: 76px;
-  height: 76px;
-  border-radius: 5px;
-  margin-right: 16px;
 }
 
 .avatar3 {
-  background-color: #e4e8ec;
   background-image: url(../img/Group45.svg);
-  width: 76px;
-  height: 76px;
-  border-radius: 5px;
-  margin-right: 16px;
 }
