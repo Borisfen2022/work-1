@@ -1,0 +1,36 @@
+.box {
+  display: flex;
+}
+
+.box1 {
+  background: red;
+  width: 100px;
+  height: 100px;
+  flex: 2 1 300px;
+}
+
+.box2 {
+  background: yellow;
+  width: 100px;
+  height: 100px;
+  flex: 1 2 300px;
+}
+
+/* .box3 {
+  background: black;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+}
+
+.box4 {
+  background: blue;
+  width: 100px;
+  height: 100px;
+}
+
+.box5 {
+  background: green;
+  width: 100px;
+  height: 100px;
+} */

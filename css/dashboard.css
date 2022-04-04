@@ -185,6 +185,8 @@ h2 {
 table {
   border-collapse: collapse;
   width: 100%;
+  display: grid;
+  grid-template-rows: 40px auto;
 }
 
 thead {
@@ -194,24 +196,11 @@ thead {
   font-weight: 500;
   font-size: 14px;
   line-height: 21px;
-  height: 72px;
+ 
 }
 
 th:first-of-type {
-  width: 40%;
   text-align: left;
-}
-
-th:nth-of-type(2) {
-  width: 25%;
-}
-
-th:nth-of-type(3) {
-  width: 25%;
-}
-
-th:nth-of-type(4) {
-  width: 10%;
 }
 
 td {
@@ -226,6 +215,14 @@ td {
 tr {
   height: 40px;
   text-align: left;
+  display: grid;
+  grid-template-columns: 300px 1fr 1fr 1fr;
+  align-items: center;
+  
+}
+
+thead tr{
+margin-right: 16px;
 }
 
 td:nth-of-type(1) {
@@ -259,7 +256,7 @@ td:nth-of-type(4) {
 }
 
 tbody {
-  height: 155px;
+  height: 110px;
   overflow-y: auto;
 }
 
