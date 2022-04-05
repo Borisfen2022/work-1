@@ -1,0 +1,162 @@
+body {
+  display: flex;
+  background: rgb(242, 246, 249);
+  margin: 0;
+  position: relative;
+}
+
+nav {
+  width: 215px;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 6px rgba(12, 36, 71, 0.07);
+}
+.logo-smashhouse {
+  margin: 32px 24px 50px 24px;
+}
+
+.menu {
+  width: 191px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  column-gap: 8px;
+  margin-bottom: auto;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  width: 191px;
+  height: 48px;
+  color: rgba(12, 36, 71, 1);
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 12px;
+}
+
+.menu-item:hover {
+  background-color: rgb(242, 246, 249);
+  cursor: pointer;
+}
+
+.menu-icons {
+  margin: 14px 12px 14px 20px;
+}
+
+.nav-footer {
+  margin-bottom: 32px;
+  height: 115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 24px;
+}
+
+.main-block {
+  display: flex;
+  flex-direction: column;
+  background: rgb(255, 255, 255);
+  margin-top: 17px;
+  box-sizing: border-box;
+  padding: 32px;
+  box-shadow: 0px 4px 6px rgba(12, 36, 71, 0.07);
+  border-radius: 12px;
+  flex-shrink: 0;
+  width: calc(100vw - 288px);
+  height: calc(100vh - 175px);
+}
+
+.layout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.popup {
+  position: absolute;
+  width: 366px;
+  height: 254px;
+  left: calc(50% - 183px);
+  top: calc(50% - 127px);
+  background: rgb(255, 255, 255);
+  border-radius: 17px;
+  padding: 24px;
+  box-sizing: border-box;
+
+}
+
+h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgb(12, 36, 71);
+}
+
+h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(32, 58, 98);
+}
+button {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+}
+
+.btm-upgradge {
+  width: 170px;
+  height: 48px;
+  background: rgb(242, 246, 249);
+  color: rgba(57, 131, 242, 1);
+
+  margin: 0 40px 24px 0;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: rgb(242, 246, 249);
+  border-radius: 11px;
+}
+
+.btm-cancel {
+  background: rgb(255, 255, 255);
+  color: rgba(228, 49, 49, 1);
+}
+
+img{
+  
+}
