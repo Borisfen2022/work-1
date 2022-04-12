@@ -83,7 +83,7 @@ header {
   font-size: 16px;
   line-height: 24px;
   color: #6f809a;
-  margin-right: 12px;
+  margin-right: 4px;
 }
 
 .save {
@@ -299,4 +299,43 @@ li {
 
 .avatar3 {
   background-image: url(../img/Group45.svg);
+}
+
+.switch {
+  position: relative;
+  margin-right: 12px;
+}
+
+.switch-track {
+  width: 40px;
+  height: 24px;
+  border-radius: 25px;
+  background: #b4c0cf;
+}
+
+.round {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  background: #203a62;
+  border-radius: 50%;
+  top: 1.5px;
+  left: 2px;
+  cursor: pointer;
+
+}
+
+.round:hover {
+  box-shadow: 0 0 10px 3px #517b82;
+}
+
+.round-on {
+  left: calc(100% - 19px);
+  transition:left, background 2s, 0.5s ease liner;
+  background:rgb(70, 216, 57);
+}
+
+.round-off {
+  left: 0;
+  transition: left, background 2s, 0.5s ease linear;
 }
