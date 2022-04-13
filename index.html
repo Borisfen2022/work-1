@@ -24,7 +24,7 @@
     </header>
 
     <div class="switch-container">
-      <span class="monthly">Monthly</span>
+      <span class="monthly" onclick="handleMonthlyClick(1)">Monthly</span>
       <div class="switch" onclick="handleSwitchClick()">
         <div class="switch-track"></div>
         <div class="round round-off"></div>
@@ -188,18 +188,6 @@
         </button>
       </div>
     </main>
-    <script>
-      const handleSwitchClick = () => {
-        const round = document.querySelector(".round"); 
-
-        if (round.classList.contains("round-off")) {
-          round.classList.remove("round-off");
-          round.classList.add("round-on");
-        } else {
-          round.classList.remove("round-on");
-          round.classList.add("round-off");
-        }
-      };
-    </script>
+    <script src="./js/index.js"></script>
   </body>
 </html>
