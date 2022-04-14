@@ -71,13 +71,9 @@ header {
 .monthly {
   font-size: 16px;
   line-height: 24px;
-  color: #203a62;
+  color: #6f809a;
   margin-right: 12px;
   cursor: pointer;
-}
-
-.monthly .not-selected {
-  color: #6f809a;
 }
 
 .img-switch {
@@ -92,14 +88,20 @@ header {
   cursor: pointer;
 }
 
-.annually .selected {
+.annually.selected,
+.monthly.selected {
   color: #203a62;
+}
+
+.annually.unselected,
+.monthly.unselected {
+  color: #6f809a;
 }
 
 .save {
   font-size: 14px;
   line-height: 21px;
-  color: #74ca77;
+  color: #6dba7c;
 }
 
 .main {
@@ -252,7 +254,7 @@ li {
   padding: 18px 24px 14px 24px;
   display: flex;
   align-items: center;
-  box-shadow: 0 5px 0 #3c354a;
+  box-shadow: 0 5px 0 #cfccd5;
   transition-duration: 1s, 100ms, 100ms;
   transition-property: background-color, bottom, box-shadow;
   transition-delay: 0s, 0.5s, 0.5s;
@@ -301,14 +303,17 @@ li {
 
 .avatar1 {
   background-image: url(../img/Group43.svg);
+  background-blend-mode: color-dodge;
 }
 
 .avatar2 {
   background-image: url(../img/Group\ 44.svg);
+  background-blend-mode: color-dodge;
 }
 
 .avatar3 {
   background-image: url(../img/Group45.svg);
+  background-blend-mode: color-dodge;
 }
 
 .switch {
@@ -339,12 +344,12 @@ li {
 }
 
 .round-on {
-  left: calc(100% - 19px);
+  left: calc(100% - 22px);
   transition: left, background 2s, 0.5s ease liner;
-  background: rgb(70, 216, 57);
+  background: #6dba7c;
 }
 
 .round-off {
-  left: 0;
+  left: 1px;
   transition: left, background 2s, 0.5s ease linear;
 }

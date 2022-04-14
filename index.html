@@ -24,12 +24,14 @@
     </header>
 
     <div class="switch-container">
-      <span class="monthly" onclick="handleMonthlyClick(1)">Monthly</span>
+      <span class="monthly selected" onclick="handleMonthlyClick()"
+        >Monthly</span
+      >
       <div class="switch" onclick="handleSwitchClick()">
         <div class="switch-track"></div>
         <div class="round round-off"></div>
       </div>
-      <span class="annually">Annually</span>
+      <span class="annually" onclick="handleAnnualyClick()">Annually</span>
       <span class="save">(save 10%)</span>
     </div>
 
